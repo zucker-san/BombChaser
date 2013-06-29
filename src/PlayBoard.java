@@ -107,16 +107,6 @@ public class PlayBoard extends JPanel implements CellClickListener{
 				}
 			}
 		}
-		
-		/*int openCells = 0;
-		for(Cell r[] : cells){
-			for(Cell c : r){
-				if(c.getValue() == 0 && !c.isEnabled() && !c.isFlagged()){
-					openCells++;
-					if(openCells == (rows*columns - gameMode.getBombQuantity())) game.isWon();
-				}
-			}
-		}*/
 	}
 	
 	private void showBombs(){
